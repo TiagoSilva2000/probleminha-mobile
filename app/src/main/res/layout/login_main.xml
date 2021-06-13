@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     android:background="@drawable/ic_launcher_foreground"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginVertical="15dp">
 
     <LinearLayout
         android:layout_width="match_parent"
