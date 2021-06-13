@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuebraGalho">
-        <activity android:name=".MainActivity">
+        <activity android:name=".FreelancerIndexActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".NegotiateServiceActivity" />
+        <activity android:name=".FinishServiceActivity" />
+        <activity android:name=".ServiceIndexActivity" />
+        <activity android:name=".FreelancerHomeActivity" />
+        <activity android:name=".CustomerHomeActivity" />
+        <activity android:name=".ManageServiceActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
