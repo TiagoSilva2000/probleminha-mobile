@@ -26,6 +26,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -38,7 +39,8 @@
             android:gravity="center"
             android:text="@string/finish_service_rating_label"
             android:textSize="30dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginBottom="50dp"/>
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -102,7 +104,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/button_id"
+        android:id="@+id/send_review_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingVertical="10dp"
@@ -111,4 +113,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/skip_review_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:text="@string/skip_review_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

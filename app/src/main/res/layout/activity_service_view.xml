@@ -29,13 +29,58 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.2">
+        app:layout_constraintVertical_bias="0.4">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/view_service_description"
-            android:lines="3"/>
+            android:orientation="vertical"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/input_service_name"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:lines="2"
+                android:maxLines="4"
+                android:scrollbars="vertical"
+                android:text="Description"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/editTextTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="DateTime"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Address"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Value"
+                android:layout_marginBottom="15dp"/>
+        </LinearLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -44,34 +89,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/view_service_value_label"
-                android:layout_marginRight="5dp"
-                android:gravity="right"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/view_service_value_content"
-                android:textStyle="bold"
-                android:gravity="right"/>
-        </LinearLayout>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/view_service_address_content"/>
         <Button
-            android:id="@+id/button_id"
+            android:id="@+id/accept_service_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingVertical="12dp"
             android:paddingHorizontal="40dp"
-            android:text="@string/view_service_accept_button" />
+            android:text="@string/view_service_accept_button"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

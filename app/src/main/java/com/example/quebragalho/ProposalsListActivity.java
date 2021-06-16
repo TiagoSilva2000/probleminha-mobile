@@ -9,35 +9,29 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.quebragalho.ui.profile.SettingsActivity;
-
-public class FreelancerIndexActivity extends AppCompatActivity {
-    private String[] freelancerOptions = {"Freelancer 1", "Freelancer 2", "Freelancer 3", "Freelancer 4"};
-
+public class ProposalsListActivity extends AppCompatActivity {
+    private String[] proposalOptions = {"Proposta 1", "Proposta 2", "Proposta 3", "Proposta 4"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_freelancer_index);
-
+        setContentView(R.layout.activity_proposals_list);
         Button selectFreelancerButton = findViewById(R.id.freelancer_index_sort_button);
 
         selectFreelancerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openProposalListActivity();
+                openProposalViewActivity();
             }
         });
 
-        ListView listView = findViewById(R.id.freelancer_list_view);
+        ListView listView = findViewById(R.id.proposal_list_view);
 
         ArrayAdapter<String> listViewAdapter = new ArrayAdapter<String>(
                 this,
                 android.R.layout.simple_list_item_1,
-                freelancerOptions
+                proposalOptions
         );
 
         listView.setAdapter(listViewAdapter);
@@ -45,14 +39,13 @@ public class FreelancerIndexActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-               openProposalListActivity();
+                openProposalViewActivity();
             }
         });
     }
 
-    private void openProposalListActivity() {
-        Intent intent = new Intent(this, ProposalsListActivity.class);
+    private void openProposalViewActivity() {
+        Intent intent = new Intent(this, ProposalViewActivity.class);
         startActivity(intent);
     }
-
 }

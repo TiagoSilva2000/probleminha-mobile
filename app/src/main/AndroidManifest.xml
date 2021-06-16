@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuebraGalho">
-        <activity android:name=".ServiceViewActivity"></activity>
+        <activity android:name=".ProposalViewActivity"></activity>
+        <activity android:name=".ProposalsListActivity" />
+        <activity android:name=".ui.profile.ManagePaymentActivity" />
+        <activity
+            android:name=".ui.profile.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" />
+        <activity android:name=".ListAddressActivity" />
+        <activity android:name=".ManageAddressActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".ServiceViewActivity" />
         <activity android:name=".FreelancerIndexActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".SignupActivity" />

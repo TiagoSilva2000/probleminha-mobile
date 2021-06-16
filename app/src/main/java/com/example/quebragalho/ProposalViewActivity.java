@@ -7,25 +7,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ServiceViewActivity extends AppCompatActivity {
+public class ProposalViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_service_view);
+        setContentView(R.layout.activity_proposal_view);
 
-        Button acceptButton = findViewById(R.id.accept_service_button);
+        Button button = findViewById(R.id.accept_proposal_button);
 
-        acceptButton.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openNegotiateServiceActivity();
+                openFinishServiceActivity();
             }
         });
     }
 
-    private void openNegotiateServiceActivity() {
-        Intent intent = new Intent(this, NegotiateServiceActivity.class);
+    private void openFinishServiceActivity() {
+        Intent intent = new Intent(this, FinishServiceActivity.class);
         startActivity(intent);
     }
 

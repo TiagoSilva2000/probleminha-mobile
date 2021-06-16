@@ -22,16 +22,36 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/input_service_tags_label"
+            android:textSize="17sp"
+            android:layout_marginRight="10dp"/>
+
+        <Spinner
+            android:id="@+id/service_tags_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2">
-        <Spinner
-            android:id="@+id/planets_spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+        app:layout_constraintVertical_bias="0.4">
 
         <EditText
             android:id="@+id/editTextTextPersonName"
@@ -58,10 +78,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="time" />
+            android:inputType="date"
+            android:hint="@string/input_service_date"/>
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.9">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/input_service_value"
+            android:layout_marginRight="5dp"/>
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -69,29 +111,20 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent">
 
-        <LinearLayout
+
+        <Button
+            android:id="@+id/cancel_create_service_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/cancel_create_service_button"
+            android:minWidth="120dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/input_service_value"
-                android:layout_marginRight="5dp"/>
-
-            <EditText
-                android:id="@+id/editTextNumberDecimal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="5"
-                android:inputType="numberDecimal" />
-
-        </LinearLayout>
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:backgroundTint="#ff0000"/>
         <Button
-            android:id="@+id/button"
+            android:id="@+id/create_service_button"
             android:layout_width="wrap_content"
+            android:minWidth="120dp"
             android:layout_height="wrap_content"
             android:text="@string/input_service_submit"
             app:layout_constraintBottom_toBottomOf="parent"

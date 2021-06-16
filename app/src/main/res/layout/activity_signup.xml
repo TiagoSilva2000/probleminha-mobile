@@ -70,7 +70,7 @@
             android:hint="@string/edittext_phone"
             android:inputType="phone" />
         <Button
-            android:id="@+id/button_id"
+            android:id="@+id/signup_button_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingVertical="8dp"

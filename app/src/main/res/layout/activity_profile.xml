@@ -110,6 +110,7 @@
         android:gravity="left"
         android:text="Sair"
         android:backgroundTint="@color/white"
-        android:textColor="#FF0000"/>
+        android:textColor="#FF0000"
+        />
 
 </LinearLayout>
