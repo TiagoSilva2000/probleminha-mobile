@@ -26,7 +26,7 @@
 ![](concepts/storyboard.png)
 
 ## Protótipo de baixa fidelidade
-![](concepts/Prototipo.png)
+![](concepts/Prototipo.jpg)
 
 # Próximas atualizações (Roadmap)
 
