@@ -1,4 +1,4 @@
-package com.example.quebragalho.ui.dashboard;
+package com.example.probleminha.ui.dashboard;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,11 +18,11 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.quebragalho.R;
-import com.example.quebragalho.ServiceIndexActivity;
-import com.example.quebragalho.ServiceViewActivity;
-import com.example.quebragalho.databinding.FragmentDashboardBinding;
-import com.example.quebragalho.ui.profile.SettingsActivity;
+import com.example.probleminha.R;
+import com.example.probleminha.ServiceIndexActivity;
+import com.example.probleminha.ServiceViewActivity;
+import com.example.probleminha.databinding.FragmentDashboardBinding;
+import com.example.probleminha.ui.profile.SettingsActivity;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

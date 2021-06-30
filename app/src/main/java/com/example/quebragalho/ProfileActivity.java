@@ -1,4 +1,4 @@
-package com.example.quebragalho;
+package com.example.probleminha;
 
 import androidx.appcompat.app.AppCompatActivity;
 

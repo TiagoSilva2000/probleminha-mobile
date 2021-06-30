@@ -1,4 +1,4 @@
-package com.example.quebragalho.ui.profile;
+package com.example.probleminha.ui.profile;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

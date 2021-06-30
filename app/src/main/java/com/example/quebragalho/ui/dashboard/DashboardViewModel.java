@@ -1,4 +1,4 @@
-package com.example.quebragalho.ui.dashboard;
+package com.example.probleminha.ui.dashboard;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

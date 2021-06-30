@@ -1,7 +1,7 @@
-package com.example.quebragalho.ui.profile;
+package com.example.probleminha.ui.profile;
 
 import android.os.Bundle;
-import com.example.quebragalho.R;
+import com.example.probleminha.R;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceFragmentCompat;

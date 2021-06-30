@@ -1,4 +1,4 @@
-package com.example.quebragalho;
+package com.example.probleminha;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,7 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.quebragalho.ui.profile.SettingsActivity;
+import com.example.probleminha.ui.profile.SettingsActivity;
 
 public class FreelancerIndexActivity extends AppCompatActivity {
     private String[] freelancerOptions = {"Freelancer 1", "Freelancer 2", "Freelancer 3", "Freelancer 4"};

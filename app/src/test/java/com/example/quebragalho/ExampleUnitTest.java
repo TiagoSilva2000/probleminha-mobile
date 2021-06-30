@@ -1,4 +1,4 @@
-package com.example.quebragalho;
+package com.example.probleminha;
 
 import org.junit.Test;
 

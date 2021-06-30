@@ -1,4 +1,4 @@
-package com.example.quebragalho.ui.home;
+package com.example.probleminha.ui.home;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -23,11 +23,11 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.quebragalho.ManageServiceActivity;
-import com.example.quebragalho.ProposalViewActivity;
-import com.example.quebragalho.R;
-import com.example.quebragalho.SignupActivity;
-import com.example.quebragalho.databinding.FragmentHomeBinding;
+import com.example.probleminha.ManageServiceActivity;
+import com.example.probleminha.ProposalViewActivity;
+import com.example.probleminha.R;
+import com.example.probleminha.SignupActivity;
+import com.example.probleminha.databinding.FragmentHomeBinding;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import org.apache.commons.io.IOUtil;

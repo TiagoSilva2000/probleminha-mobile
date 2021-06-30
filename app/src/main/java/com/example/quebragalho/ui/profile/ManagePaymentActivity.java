@@ -1,5 +1,5 @@
-package com.example.quebragalho.ui.profile;
-import com.example.quebragalho.R;
+package com.example.probleminha.ui.profile;
+import com.example.probleminha.R;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;

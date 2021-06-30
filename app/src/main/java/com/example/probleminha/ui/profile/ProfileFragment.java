@@ -1,4 +1,4 @@
-package com.example.quebragalho.ui.profile;
+package com.example.probleminha.ui.profile;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,21 +18,21 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.quebragalho.R;
-import com.example.quebragalho.ServiceIndexActivity;
-import com.example.quebragalho.SignupActivity;
-import com.example.quebragalho.databinding.FragmentProfileBinding;
+import com.example.probleminha.R;
+import com.example.probleminha.ServiceIndexActivity;
+import com.example.probleminha.SignupActivity;
+import com.example.probleminha.databinding.FragmentProfileBinding;
 
 public class ProfileFragment extends Fragment {
 
-    private ProfileViewModel profileViewModel;
+    private com.example.probleminha.ui.profile.ProfileViewModel profileViewModel;
     private FragmentProfileBinding binding;
     private String[] mockedOptions = {"Probleminhas Resolvidos", "Probleminhas Pendentes", "Avalie o nosso app!", "Compartilhe!", "Configurações"};
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         profileViewModel =
-                new ViewModelProvider(this).get(ProfileViewModel.class);
+                new ViewModelProvider(this).get(com.example.probleminha.ui.profile.ProfileViewModel.class);
 
         binding = FragmentProfileBinding.inflate(inflater, container, false);
         View view = binding.getRoot();
@@ -76,7 +76,7 @@ public class ProfileFragment extends Fragment {
                                 Toast.LENGTH_SHORT).show();
                         return;
                     case 4:
-                        intent = new Intent(getActivity(), SettingsActivity.class);
+                        intent = new Intent(getActivity(), com.example.probleminha.ui.profile.SettingsActivity.class);
                         break;
                 }
                 startActivity(intent);
