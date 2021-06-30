@@ -74,4 +74,7 @@
     <string name="view_proposal_title">Proposta</string>
     <string name="skip_review_content">Pular</string>
     <string name="negotiate_service_send_proposal">Propor</string>
+    <string name="user_id_key">user_id</string>
+    <string name="user_role_key">user_role</string>
+    <string name="api_base_url">http://10.0.2.2:5001</string>
 </resources>
