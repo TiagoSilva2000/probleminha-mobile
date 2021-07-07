@@ -28,6 +28,12 @@
 ## Protótipo de baixa fidelidade
 ![](concepts/Prototipo.jpg)
 
+## Diagrama de caso de uso
+![](concepts/DiagramadeCasodeUso.png)
+
+## Diagrama de atividade
+![](concepts/diagramadeatividade.png)
+
 # Próximas atualizações (Roadmap)
 
  | Recurso                          | Status                                                                    |
