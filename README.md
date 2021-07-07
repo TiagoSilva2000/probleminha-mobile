@@ -47,6 +47,6 @@
 | Interface baseada em Material Design for Android                        | Feito                                                                     |
 | Internacionalização                                                     | Feito                                                                     |
 | Permissão e preferências                                                | Feito                                                                     |
-| Google Analytics                                                        | Feito                                                                    |
+| Google Analytics                                                        | Feito                                                                     |
 | Comunicação com servidor Json                                           | Feito                                                                     |
-| Persistência em SQLite                                                  | Feito                                                                     |
+| Persistência em SQLite                                                  | Pendente                                                                  |
