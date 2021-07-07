@@ -37,3 +37,16 @@
  | Listar Freelancers               | Pendendo                                                                  |
  | Listar Serviços (Probleminhas)   | Pendendo                                                                  |
  | Avaliar Cliente/Freelancer       | Pendendo                                                                  |
+
+# Requisitos MOBILE/IHC
+
+| Recurso                          | Status                                                                    |
+|----------------------------------|---------------------------------------------------------------------------|
+| Funcionar para a plataforma android                                     | Feito                                                                     |
+| Versionar o código no github                                            | Feito                                                                     |
+| Interface baseada em Material Design for Android                        | Feito                                                                     |
+| Internacionalização                                                     | Feito                                                                     |
+| Permissão e preferências                                                | Feito                                                                     |
+| Google Analytics                                                        | Feito                                                                    |
+| Comunicação com servidor Json                                           | Feito                                                                     |
+| Persistência em SQLite                                                  | Feito                                                                     |
