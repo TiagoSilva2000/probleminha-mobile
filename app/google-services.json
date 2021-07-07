@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "19388289886",
+    "project_id": "probleminha-8afc4",
+    "storage_bucket": "probleminha-8afc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19388289886:android:7ca0eb4b081c86f2def5cf",
+        "android_client_info": {
+          "package_name": "com.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19388289886-tpflous2c5pultecopmkjltbi0pgr5ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY-2PYE7qOgq2P8orr0jnwWTSQZzeBfMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19388289886-tpflous2c5pultecopmkjltbi0pgr5ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19388289886:android:f78c7d292d37f404def5cf",
+        "android_client_info": {
+          "package_name": "com.example.probleminha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19388289886-tpflous2c5pultecopmkjltbi0pgr5ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY-2PYE7qOgq2P8orr0jnwWTSQZzeBfMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19388289886-tpflous2c5pultecopmkjltbi0pgr5ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
