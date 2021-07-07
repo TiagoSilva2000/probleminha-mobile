@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.quebragalho">
+    package="com.example.probleminha">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -8,8 +10,31 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.QuebraGalho">
-        <activity android:name=".MainActivity">
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/Theme.Probleminha">
+        <activity android:name=".ProposalViewActivity"></activity>
+        <activity android:name=".ProposalsListActivity" />
+        <activity android:name=".ui.profile.ManagePaymentActivity" />
+        <activity
+            android:name=".ui.profile.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" />
+        <activity android:name=".ListAddressActivity" />
+        <activity android:name=".ManageAddressActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".ServiceViewActivity" />
+        <activity android:name=".FreelancerIndexActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".NegotiateServiceActivity" />
+        <activity android:name=".FinishServiceActivity" />
+        <activity android:name=".ServiceIndexActivity" />
+        <activity android:name=".FreelancerHomeActivity" />
+        <activity android:name=".CustomerHomeActivity" />
+        <activity android:name=".ManageServiceActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

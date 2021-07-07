@@ -1,3 +1,80 @@
 <resources>
-    <string name="app_name">QuebraGalho</string>
+    <string name="app_name">Probleminha</string>
+    <string name="login_button">Login</string>
+    <string name="login_edittext_email">Insira seu email</string>
+    <string name="login_edittext_password">Insira sua senha</string>
+    <string name="input_service_name">Um nome para o que você está querendo</string>
+    <string name="input_service_description">Vamos descrever mais um pouco?</string>
+    <string name="input_service_value">Valor</string>
+    <string name="input_service_submit">Enviar</string>
+    <string name="input_service_title">Vem de Probleminha!</string>
+    <string name="view_service_title">Nome do Serviço</string>
+    <string name="view_service_description">Descrição sobre serviço</string>
+    <string name="view_service_accept_button">Negociar</string>
+    <string name="view_service_value_label">Valor:</string>
+    <string name="view_service_value_content">R$ 00,00</string>
+    <string name="view_service_address_content">Endereço</string>
+    <string name="finish_service_title">Finalizar Serviço</string>
+    <string name="finish_service_rating_label">Avalie este cliente ou freelancer</string>
+    <string name="finish_service_opinion_label">Escreva alguns comentários</string>
+    <string name="finish_service_rating_3">Excelente</string>
+    <string name="finish_service_rating_2">Bom</string>
+    <string name="finish_service_rating_1">Regular</string>
+    <string name="finish_service_rating_0">Ruim</string>
+    <string name="finish_service_send_button">Avaliar</string>
+    <string name="negotiate_service_title">Serviço</string>
+    <string name="negotiate_service_text_label">A sua contraproposta</string>
+    <string name="index_freelancer_title">Freelancers</string>
+    <string name="profile_description">Imagem de Perfil</string>
+    <string name="edittext_password_conf">Confirme sua senha</string>
+    <string name="edittext_firstName">Nome</string>
+    <string name="edittext_surname">Sobrenome</string>
+    <string name="edittext_phone">Insira seu número de telefone</string>
+    <string name="signup_button">Criar Conta</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_service">Services</string>
+    <string name="title_profile">Profile</string>
+    <string name="order_button_content">Organizar</string>
+    <string name="send_email_button_content">Envie-me um email!</string>
+    <string name="exit_button_content">Sair</string>
+    <string name="no_current_proposals_content">Sem propostas até então...</string>
+    <string name="create_service">Criar Serviço</string>
+    <string name="cancel_create_service_button">Cancelar</string>
+    <string name="finish_service_accept_button">Aceitar</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="enable_notification">Notificações Habilitadas</string>
+    <string name="nots_header">Notificações</string>
+    <string name="preferences_header">Preferências</string>
+    <string name="preferred_currency_label">Moeda de Preferência</string>
+    <string name="input_service_date">É para quando?</string>
+    <string name="input_service_tags_label">Categoria</string>
+    <string name="stored_services">stored_services</string>
+    <string name="index_proposals_title">Propostas</string>
+    <string name="view_proposal_proposal_label">Detalhes sobre a proposta</string>
+    <string name="accept_proposal">Aceitar Proposta</string>
+    <string name="view_proposal_service_label">Detalhes sobre o pedido</string>
+    <string name="view_proposal_title">Proposta</string>
+    <string name="skip_review_content">Pular</string>
+    <string name="negotiate_service_send_proposal">Propor</string>
+    <string name="user_id_key">user_id</string>
+    <string name="user_role_key">user_role</string>
+    <string name="api_base_url">http://10.0.2.2:5001</string>
 </resources>
